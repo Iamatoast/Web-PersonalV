@@ -7,5 +7,8 @@ console.log(html);
 const htmlColorMode = document.querySelector(".site-theme");
 
 htmlColorMode.addEventListener("click", () => {
-    html.toggleAttribute("dark", "data-bs-theme");
+    if(html.getAttribute("data-bs-theme") === "dark")
+        html.setAttribute("data-bs-theme","light");
+    else
+        html.setAttribute("data-bs-theme","dark");
 })
