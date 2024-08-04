@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="~/Web_PersonalV.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Web PersonalV</a>
@@ -29,9 +29,7 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="View3">View3</a>
                         </li>
                     </ul>
-                    <span class="navbar-text">
-                        <button class ="site-theme"> Dark</button>
-                    </span>
+                    <button type="button" class="btn site-theme"><img src="/imgs/luna.png" alt="Tema" id="themeSelector"></button>
                 </div>
             </div>
         </nav>

@@ -3,12 +3,17 @@
 
 // Write your JavaScript code.
 const html = document.querySelector("#tema");
-console.log(html);
 const htmlColorMode = document.querySelector(".site-theme");
+html.setAttribute("data-bs-theme",localStorage.getItem("tema"));
 
 htmlColorMode.addEventListener("click", () => {
-    if(html.getAttribute("data-bs-theme") === "dark")
-        html.setAttribute("data-bs-theme","light");
-    else
-        html.setAttribute("data-bs-theme","dark");
+    if(html.getAttribute("data-bs-theme") === "dark"){
+        localStorage.setItem("tema","light");
+        document.getElementById("themeSelector").src="/imgs/luna.png";
+    }
+    else{
+        localStorage.setItem("tema","dark");
+        document.getElementById("themeSelector").src="/imgs/sol.png";
+    }
+    html.setAttribute("data-bs-theme",localStorage.getItem("tema"));
 })
