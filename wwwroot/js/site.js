@@ -5,15 +5,17 @@
 const html = document.querySelector("#tema");
 const htmlColorMode = document.querySelector(".site-theme");
 html.setAttribute("data-bs-theme",localStorage.getItem("tema"));
+document.getElementById("themeSelector").src= localStorage.getItem("img");
 
 htmlColorMode.addEventListener("click", () => {
     if(html.getAttribute("data-bs-theme") === "dark"){
         localStorage.setItem("tema","light");
-        document.getElementById("themeSelector").src="/imgs/luna.png";
+        localStorage.setItem("img","/imgs/luna.png");
     }
     else{
         localStorage.setItem("tema","dark");
-        document.getElementById("themeSelector").src="/imgs/sol.png";
+        localStorage.setItem("img","/imgs/sol.png");
     }
     html.setAttribute("data-bs-theme",localStorage.getItem("tema"));
+    document.getElementById("themeSelector").src= localStorage.getItem("img");
 })
