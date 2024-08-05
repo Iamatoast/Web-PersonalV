@@ -2,6 +2,7 @@ namespace Web_PersonalV.Models;
 
 public class Text
 {
+    /*
     public static string[,] IndexTxt = new string[,] {{"s"},{"s"},{"s"}};
     public static string[,] SynthetikTxt = new string[,] {{"s"},{"s"},{"s"}};
     public static string[,] DevilDaggersTxt = new string[,] {{"s"},{"s"},{"s"}};
@@ -45,4 +46,5 @@ public class Text
                 break;
         }
     }
+    */
 }

@@ -9,6 +9,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <div class="row row-cols-1 row-cols-md-3 g-4" >
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card text-bg-dark">
+                <img src="/imgs/normal.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title" style="color: black">Normal</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card text-bg-dark">
+                <img src="/imgs/pootis.gif" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Pootis</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card text-bg-dark">
+                <img src="..." class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <form method="post" action='@Url.Action("Index", "Home")'>
+        <select class="form-select" size="3" multiple aria-label="Multiple select example" name="SkinSeleccionada">
+            <option selected value="normal">Normal</option>
+            <option value="pootis">Pootis</option>
+            <option value="chispop">Chispop</option>
+        </select>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+    </form>
 </body>
 </html>
