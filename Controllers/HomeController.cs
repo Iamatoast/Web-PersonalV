@@ -7,16 +7,15 @@ namespace Web_PersonalV.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    public string WebSkin = "normal";
+    public static string WebSkin = "normal";
 
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }
 
-    public IActionResult Index(string SkinSeleccionada = "normal")
+    public IActionResult Index()
     {
-        WebSkin = SkinSeleccionada;
         ViewBag.Folder = WebSkin;
         return View();
     }
@@ -53,6 +52,13 @@ public class HomeController : Controller
     public IActionResult SkinSelector()
     {
         return View();
+    }
+
+    public IActionResult SkinElegida(string SkinSeleccionada)
+    {   
+        WebSkin = SkinSeleccionada;
+        ViewBag.Folder = WebSkin;
+        return View("Index");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
