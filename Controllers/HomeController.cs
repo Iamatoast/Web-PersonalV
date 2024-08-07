@@ -17,35 +17,39 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         ViewBag.Folder = WebSkin;
+        ViewBag.Elementos = Text.PageTxt(WebSkin, "Index");
         return View();
     }
 
     public IActionResult Stores()
     {
         ViewBag.Folder = WebSkin;
+        ViewBag.Elementos = Text.PageTxt(WebSkin, "Stores");
         return View();
     }
 
     public IActionResult Synthetik()
     {
         ViewBag.Folder = WebSkin;
+        ViewBag.Elementos = Text.PageTxt(WebSkin, "Synthetik");
+        foreach (string txt in ViewBag.Elementos)
+        {
+            Console.WriteLine(txt);
+        }
         return View();
     }
 
     public IActionResult DevilDaggers()
     {
         ViewBag.Folder = WebSkin;
+        ViewBag.Elementos = Text.PageTxt(WebSkin, "DevilDaggers");
         return View();
     }
 
-    public IActionResult View4()
+    public IActionResult ItSteals()
     {
         ViewBag.Folder = WebSkin;
-        return View();
-    }
-
-    public IActionResult Minigame()
-    {
+        ViewBag.Elementos = Text.PageTxt(WebSkin, "ItSteals");
         return View();
     }
 
@@ -58,6 +62,7 @@ public class HomeController : Controller
     {   
         WebSkin = SkinSeleccionada;
         ViewBag.Folder = WebSkin;
+        ViewBag.Elementos = Text.PageTxt(WebSkin, null);
         return View("Index");
     }
 
