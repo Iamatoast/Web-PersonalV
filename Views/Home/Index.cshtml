@@ -10,8 +10,8 @@
     </head>
     <body>
         <div class="text-center">
-            <h1 class="display-4">Welcome</h1>
-            <p>Hola! Bienvenidos a un pequeño proyecto en el que estuve trabajando. Aca quiero dar mis opiniones y recomendar algunos juegos los cuales no son tan conocidos y definitibamente necesitan mas atencion :)</p>
+            <h1 class="display-4">@ViewBag.Elementos[0]</h1>
+            <p>@ViewBag.Elementos[1]</p>
         </div>
         <!--Grilla + card Inicio-->
         <div class="row row-cols-1 row-cols-md-3 g-4" >
@@ -19,9 +19,9 @@
                 <div class="card">
                     <a asp-area="" asp-controller="Home" asp-action="Synthetik"><img src="/imgs/@ViewBag.Folder/ImgMain1.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">@ViewBag.Elementos[2]</h5>
+                        <p class="card-text">@ViewBag.Elementos[3]</p>
+                        <p class="card-text"><small class="text-body-secondary">@ViewBag.Elementos[4]</small></p>
                     </div>
                 </div>
             </div>
@@ -29,9 +29,9 @@
                 <div class="card">
                     <a asp-area="" asp-controller="Home" asp-action="DevilDaggers"><img src="/imgs/@ViewBag.Folder/ImgMain2.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">@ViewBag.Elementos[5]</h5>
+                        <p class="card-text">@ViewBag.Elementos[6]</p>
+                        <p class="card-text"><small class="text-body-secondary">@ViewBag.Elementos[7]</small></p>
                     </div>
                 </div>
             </div>
@@ -39,9 +39,9 @@
                 <div class="card">
                     <a asp-area="" asp-controller="Home" asp-action="ItSteals"><img src="/imgs/@ViewBag.Folder/ImgMain3.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">@ViewBag.Elementos[8]</h5>
+                        <p class="card-text">@ViewBag.Elementos[9]</p>
+                        <p class="card-text"><small class="text-body-secondary">@ViewBag.Elementos[10]</small></p>
                     </div>
                 </div>
             </div>

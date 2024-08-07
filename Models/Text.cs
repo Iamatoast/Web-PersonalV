@@ -8,17 +8,17 @@ public class Text
         // 11 Elementos
         {
             //Normal
-            "Title1",
+            "Welcome",
             "Hola! Bienvenidos a un pequeño proyecto en el que estuve trabajando. Aca quiero dar mis opiniones y recomendar algunos juegos los cuales no son tan conocidos y definitibamente necesitan mas atencion :)",
-            "CardTitle1",
-            "CardP1",
-            "CardPSecondary1",
-            "CardTitle2",
-            "CardP2",
-            "CardPSecondary2",
-            "CardTitle3",
-            "CardP3",
-            "CardPSecondary3"
+            "SYNTHETIK: Legion Rising",
+            "SYNTHETIK es un despiadado rouge-lite shooter tactico donde la exploracion y experimentacion es clave. Lucha en un mundo invadido por la Legion de Maquinas y sus Dioses. Experimente el gun play de siguiente nivel y sumergete en builds inigualables y mejoras para tu androide. ¿Puedes derrotar el Corazon del Armagedon?",
+            "15 Marzo 2018",
+            "Devil Daggers",
+            "Devil Daggers es un shooter frenetico que te pone en una arena abisal para enfrentarte a legiones eternas de demonios. Armado con unas versatiles dagas magicas y un sistema de movimiento fluido, lucha para sobrevivir lo mas que puedas.",
+            "18 Febrero 2016",
+            "It Steals",
+            "EN CADA ESQUINA. Enfrentate a antagonistas sigilosos que tomaran ventaja de tus expectativas.",
+            "22 Julio 2020"
         },
         {
             //Pootis
@@ -89,7 +89,7 @@ public class Text
         },
         {
             //Pootis
-            "MainTitle",
+            "Pootis",
             "VideoLink",
             "Title1",
             "P1",
@@ -163,7 +163,7 @@ public class Text
         {
             //Normal
             "Devil Daggers",
-            "https://www.youtube.com/watch?v=HskOcc1ILAM",
+            "https://www.youtube.com/embed/HskOcc1ILAM?si=LrG2-J3lQpCo-l2I",
             "Resumen",
             "P1",
             "El juego",
@@ -270,7 +270,7 @@ public class Text
         {
             //Normal
             "It Steals",
-            "https://www.youtube.com/watch?v=X8VdPJJcHO0",
+            "https://www.youtube.com/embed/X8VdPJJcHO0?si=obod8LQNk0fRkGOy",
             "Resumen",
             "P1",
             "El juego",
@@ -410,25 +410,20 @@ public class Text
         {
             case "Synthetik":
                 return MatrixToArray(SynthetikTxt, posArray);
-                break;
             case "DevilDaggers":
                 return MatrixToArray(DevilDaggersTxt, posArray);
-                break;
             case "ItSteals":
                 return MatrixToArray(ItStealsTxt, posArray);
-                break;
             case "Stores":
                 return MatrixToArray(StoresTxt, posArray);
-                break;
             default:
                 return MatrixToArray(IndexTxt, posArray);
-                break;
         }
     }
     public static string[] MatrixToArray(string[,] matrix, int index)
     {
-        string[] array = new string[matrix.GetLength(index)];
-        for (int i = 0; i < matrix.GetLength(index); i++)
+        string[] array = new string[matrix.GetLength(1)];
+        for (int i = 0; i < matrix.GetLength(1); i++)
         {
             array[i] += matrix[index, i];
         }
