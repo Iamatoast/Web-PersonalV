@@ -372,22 +372,103 @@ public class Text
     };
     public static string[,] StoresTxt = new string[,]
     {
-        // "", ""
-        // X Elementos
+        // "Titulo", "P1", "#", "TableTitle1", "TableTitle2", "TableP1", "P1Description", "P1Point1", "P1Point2", "P1Point3", "P1Point4", "TableP2", "P2Description", "P2Point1", "P2Point2", "P2Point3", "P2Point4", "P2Point5", "P2Point6", "TableP3", "P3Description", "P3Point1", "P3Point2", "P3Point3", "P3Point4", "TableP4", "P4Description", "P4Point1", "P4Point2"
+        // 29 Elementos
         {
             //Normal
-            "s",
-            "s"
+            "Stores",
+            "Muchos se han preguntado a lo largo de los años cual es la mejor tienda virtual de videojuegos, y, aunque no tenga una respuesta definitiva, quiero aportar mi opinion de las tiendas que utilize atravez de los años.",
+            "#",
+            "Tienda",
+            "Opiniones",
+            "Steam",
+            "La clasica, la que todos conocen, definitivamente es la mejor tienda, pero no la puedo recomendar tanto como hace un par de años debido a que sacaron los precios regionales",
+            "+ Enorme galeria de juegos",
+            "+ Muy buen soporte y gran longevidad",
+            "+ Soporte nativo para addons/mods de juegos",
+            "+ Buen cliente para juegos",
+            "GOG",
+            "Good Old Games es una excelente tienda que originalmente ofrecia juegos viejos, pero que ahora se expandio a nuevos juegos",
+            "+ Soporte para juegos clasicos",
+            "+ Juegos sin DRM e instaladores de backup",
+            "+ Soporte nativo para mods de juegos",
+            "+ Goodies (Ej: manuales virtuales)",
+            "+ Buen cliente para juegos",
+            "- Libreria no tan extensa",
+            "Epic Games Store",
+            "El famoso launcher de Fortnite tambien es una tienda de juegos",
+            "+ Gran libreria de juegos",
+            "+ Juegos gratis todas las semanas",
+            "+ Fortnite",
+            "- Launcher feo",
+            "Battle.net",
+            "Launcher y store de Blizzard (Ahora Activision-Blizzard)",
+            "+ Juegos exclusivos de Activision-Blizzard",
+            "+ Launcher decente"
         },
         {
             //Pootis
-            "s",
-            "s"
+            "Titulo",
+            "P1",
+            "#",
+            "TableTitle1",
+            "TableTitle2",
+            "TableP1",
+            "P1Description",
+            "P1Point1",
+            "P1Point2",
+            "P1Point3",
+            "P1Point4",
+            "TableP2",
+            "P2Description",
+            "P2Point1",
+            "P2Point2",
+            "P2Point3",
+            "P2Point4",
+            "P2Point5",
+            "P2Point6",
+            "TableP3",
+            "P3Description",
+            "P3Point1",
+            "P3Point2",
+            "P3Point3",
+            "P3Point4",
+            "TableP4",
+            "P4Description",
+            "P4Point1",
+            "P4Point2"
         },
         {
             //Chispop
-            "s",
-            "s"
+            "Titulo",
+            "P1",
+            "#",
+            "TableTitle1",
+            "TableTitle2",
+            "TableP1",
+            "P1Description",
+            "P1Point1",
+            "P1Point2",
+            "P1Point3",
+            "P1Point4",
+            "TableP2",
+            "P2Description",
+            "P2Point1",
+            "P2Point2",
+            "P2Point3",
+            "P2Point4",
+            "P2Point5",
+            "P2Point6",
+            "TableP3",
+            "P3Description",
+            "P3Point1",
+            "P3Point2",
+            "P3Point3",
+            "P3Point4",
+            "TableP4",
+            "P4Description",
+            "P4Point1",
+            "P4Point2"
         }
     };
 

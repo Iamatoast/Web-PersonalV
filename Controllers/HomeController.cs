@@ -16,7 +16,6 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        ViewData.Clear();
         ViewBag.Folder = WebSkin;
         ViewBag.Elementos = Text.PageTxt(WebSkin, "Index");
         return View();
@@ -24,7 +23,6 @@ public class HomeController : Controller
 
     public IActionResult Stores()
     {
-        ViewData.Clear();
         ViewBag.Folder = WebSkin;
         ViewBag.Elementos = Text.PageTxt(WebSkin, "Stores");
         return View();
@@ -32,7 +30,6 @@ public class HomeController : Controller
 
     public IActionResult Synthetik()
     {
-        ViewData.Clear();
         ViewBag.Folder = WebSkin;
         ViewBag.Elementos = Text.PageTxt(WebSkin, "Synthetik");
         return View();
@@ -40,7 +37,6 @@ public class HomeController : Controller
 
     public IActionResult DevilDaggers()
     {
-        ViewData.Clear();
         ViewBag.Folder = WebSkin;
         ViewBag.Elementos = Text.PageTxt(WebSkin, "DevilDaggers");
         return View();
@@ -48,7 +44,6 @@ public class HomeController : Controller
 
     public IActionResult ItSteals()
     {
-        ViewData.Clear();
         ViewBag.Folder = WebSkin;
         ViewBag.Elementos = Text.PageTxt(WebSkin, "ItSteals");
         return View();
@@ -60,8 +55,7 @@ public class HomeController : Controller
     }
 
     public IActionResult SkinElegida(string SkinSeleccionada)
-    {   
-        ViewData.Clear();
+    {
         WebSkin = SkinSeleccionada;
         ViewBag.Folder = WebSkin;
         ViewBag.Elementos = Text.PageTxt(WebSkin, "Index");
