@@ -231,7 +231,7 @@ public class Text
         {
             //Chispop
             "MainTitle",
-            "VideoLink",
+            "https://www.youtube.com/embed/oelpLSXazII?si=F0zfmVm5I-1bAngm",
             "Title1",
             "P1",
             "Title2",
