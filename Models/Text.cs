@@ -197,7 +197,7 @@ public class Text
         {
             //Pootis
             "La trayectoria de PvZ GW",
-            "https://www.youtube.com/embed/lOjXxMvHAxo?si=mu2EQBlqUoVMyqUm",
+            "https://www.youtube.com/embed/_fTvd3Rcpd0?si=XFXrmUAfxQfFge23",
             "¿Y Popcap?",
             "PopCap Games es una empresa productora de juegos con sede Seattle, Washington, EE. UU., fue fundada en 2000 por John Vechey, Brian Fiete, Jason Kapalka, y es conocida por crear juegos como Bejeweled, Peggle, Zuma y Plants vs. Zombies. Pero hoy en dia no se habla mucho de esta, no? A lo largo de los años Popcap fue bajando en calidad, centrandose en la expansion de sus ips previamente establecidas a diferencia de sus primeros años; y, aunque hoy en dia no este produciendo juegos tan buenos como los mencionados anteriormente, se puede disfrutar de aquellos que si lo son.",
             "Plants vs. Zombies",
@@ -304,7 +304,7 @@ public class Text
         {
             //Pootis
             "MainTitle",
-            "https://www.youtube.com/embed/_fTvd3Rcpd0?si=XFXrmUAfxQfFge23",
+            "https://www.youtube.com/embed/lOjXxMvHAxo?si=mu2EQBlqUoVMyqUm",
             "Title1",
             "P1",
             "Title2",
